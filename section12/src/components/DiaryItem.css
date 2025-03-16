@@ -5,6 +5,7 @@
   align-items: center;
   padding: 10px;
   border-bottom: 1px solid #ccc;
+  
 }
 
 .diary_item .img_section{
@@ -13,12 +14,8 @@
   display: flex;
   justify-content: center;
   border-radius: 5px;
+  cursor: pointer;
 }
-
-.diary_item .img_section img{
-  width: 50%;
-}
-
 
 .img_section_1{
   background-color: rgb(100,201,100);
@@ -37,9 +34,10 @@
   background-color: rgb(253,86,95);
 }
 
-.info_section{
+.diary_item .info_section{
   flex-grow: 1;
-  align-self: baseline;
+  align-self: stretch;
+  cursor: pointer;
   .created_date{
     font-size: 25px;
     font-weight: 700;
