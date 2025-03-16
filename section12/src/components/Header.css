@@ -1,0 +1,21 @@
+.header{
+  padding: 15px 10px;
+  text-align: center;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.header > div{
+  display: flex;
+}
+.header .header_center{
+  justify-content: center;
+}
+
+.header .header_left{
+  margin-right: auto;
+}
+
+.header .header_right{
+margin-left: auto;
+}
