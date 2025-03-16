@@ -88,50 +88,6 @@ function App() {
 
   return (
     <>
-      {/* <Header
-        title='일기장'
-        leftChild={
-          <Button
-            text={'<'}
-            type={'default'}
-            onClick={() => {
-              console.log('123456789 클릭');
-            }}
-          />
-        }
-        rightChild={
-          <Button
-            text={'>'}
-            type={'default'}
-            onClick={() => {
-              console.log('123456789 클릭');
-            }}
-          />
-        }
-      /> */}
-
-      <button
-        onClick={() => {
-          onCreated(new Date().getTime(), 5, '냐냐냐');
-        }}
-      >
-        일기추가테스트
-      </button>
-      <button
-        onClick={() => {
-          onUpdate(1, new Date().getTime(), 5, '수정이야');
-        }}
-      >
-        일기수정테스트
-      </button>
-      <button
-        onClick={() => {
-          onDelete(1, new Date().getTime(), 5, '수정이야');
-        }}
-      >
-        일기삭제테스트
-      </button>
-
       <DiaryStateContext.Provider value={{ data }}>
         <DiaryDispatchContext.Provider
           value={{ onCreated, onUpdate, onDelete }}

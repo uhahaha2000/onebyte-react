@@ -7,9 +7,11 @@
 
 .header > div{
   display: flex;
+  align-items: center;
 }
 .header .header_center{
   justify-content: center;
+  font-size: 24px;
 }
 
 .header .header_left{
