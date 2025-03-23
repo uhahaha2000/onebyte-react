@@ -10,14 +10,17 @@
   align-items: center;
 }
 .header .header_center{
+  width: 50%;
   justify-content: center;
   font-size: 24px;
 }
 
 .header .header_left{
-  margin-right: auto;
+  width: 25%;
+  justify-content: flex-start;
 }
 
 .header .header_right{
-margin-left: auto;
+  width: 25%;
+  justify-content: flex-end;
 }
