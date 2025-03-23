@@ -1,0 +1,43 @@
+
+
+.section_title{
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.editor {
+  display: flex;
+  flex-direction: column;
+}
+.editor section{
+  padding-top: 20px;
+  margin-bottom: 40px;
+  
+}
+.editor input, .editor textarea{
+  background-color: rgb(236,236,236);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.editor textarea{
+  width: 100%;
+  min-height: 200px;
+  padding: 20px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.emotion_list_wrapper{
+  display: flex;
+  justify-content: space-around;
+  gap: 2%;
+  margin-top: 10px;
+}
+
+.button_section{
+  display: flex;
+  justify-content: space-between
+}

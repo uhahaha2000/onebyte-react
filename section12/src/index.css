@@ -10,8 +10,12 @@ body {
   background-color: antiquewhite;
 }
 
+body{
+  display: flex;
+}
 #root {
   max-width: 600px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 10px;
   box-sizing: border-box;
