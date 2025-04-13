@@ -1,0 +1,13 @@
+#root {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.wrap{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f0f0f0;
+  padding:40px 20px;
+  box-sizing: border-box;
+}
