@@ -14,9 +14,10 @@
 
   .btn_add{
     border-radius: 8px;
-    background-color: #007bff;
+    background-color: orange;
     color: #fff;
     border: none;
     width:80px;
+    cursor: pointer;
   }
 }
