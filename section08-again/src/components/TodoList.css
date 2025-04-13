@@ -1,0 +1,17 @@
+.search_input{
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  border:none;
+  border-bottom: #ccc 1px solid;
+  box-sizing: border-box;
+}
+.todo_list{
+  .title{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+}
